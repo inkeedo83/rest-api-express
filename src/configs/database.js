@@ -1,5 +1,11 @@
-import { Sequelize } from "sequelize";
-import { DATABASE, DIALECT, HOST, PASSWORD, USERNAME } from "../common/constants.js";
+import { Sequelize } from 'sequelize';
+import {
+  DATABASE,
+  DIALECT,
+  HOST,
+  PASSWORD,
+  USERNAME,
+} from '../common/constants.js';
 
 const dbConnection = new Sequelize({
   dialect: DIALECT,
